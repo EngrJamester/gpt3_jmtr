@@ -1,5 +1,6 @@
 # Reference
 This application has is similar with this one https://www.delance.xyz/
+figma reference https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0-15&t=VJYggR3ZJ5DXAg4o-0
 
 
 # Getting Started with Create React App
