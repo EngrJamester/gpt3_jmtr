@@ -3,6 +3,15 @@ This application has is similar with this one https://www.delance.xyz/
 figma reference https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0-15&t=VJYggR3ZJ5DXAg4o-0
 github reference : https://github.com/adrianhajdin/project_modern_ui_ux_gpt3
 
+Step in deploying the application in Github Pages
+- download the package : npm install gh-pages --save-dev
+- add homepage in package.json at the top
+    "homepage": "http://EngrJamester.github.io/gpt3_jmtr",
+- add the following commands in package.json under scripts
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+- run the command : npm run deploy
+
 
 # Getting Started with Create React App
 
